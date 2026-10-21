@@ -1,0 +1,23 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# SQLite database (runtime generated, kept clean for Git repo)
+attendance.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Streamlit local credentials
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
